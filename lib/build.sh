@@ -131,7 +131,7 @@ install_and_cache_deps() {
   fi
 
   info "Caching node modules"
-  cp -R node_modules $cache_dir
+  # cp -R node_modules $cache_dir
 
   PATH=$assets_dir/node_modules/.bin:$PATH
 
